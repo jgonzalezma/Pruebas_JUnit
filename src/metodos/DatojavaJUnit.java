@@ -1,4 +1,4 @@
-package JUnitTests;
+package metodos;
 
 public class DatojavaJUnit {
 

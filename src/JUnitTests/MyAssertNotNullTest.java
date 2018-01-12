@@ -6,8 +6,8 @@ import org.junit.Test;
 public class MyAssertNotNullTest {
 
 	@Test
-    public void testComprarNull() {
-        Assert.assertNotNull(6);
+    public void testNotNull() {
+        String valor = null;
     }
 
 }

@@ -4,6 +4,8 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
+import metodos.DatojavaJUnit;
+
 public class DatojavaJUnitTest {
 	DatojavaJUnit datojavaJUnit = new DatojavaJUnit();
 	@Test

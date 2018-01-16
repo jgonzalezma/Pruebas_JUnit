@@ -1,11 +1,15 @@
 package metodos;
 
+import java.lang.reflect.Array;
+
 public class MyAssertArrayEquals {
-	public void PrimerArray(){
-	String[] expectedOutput = {"apple", "mango", "grape"};
+	public static String[] pruebaArray1(){
+	String array1[] = {"tortilla", "patata", "café"};
+	return array1;
 	
 	}
-	public void SegundoArray(){
-	String[] methodOutput = {"apple", "mango", "grape"};
+	public static String[] pruebaArray2(){
+	String array2 []= {"tortilla", "patata", "café"};
+	return array2;
 	}
 }

@@ -15,7 +15,7 @@ public class DatojavaJUnitTest {
 
 	@Test
 	public void testRestar() {
-		assertEquals(datojavaJUnit.restar(5, 4), 2);
+		assertEquals(datojavaJUnit.restar(5, 4), 1);
 		 // 5 - 4 = 1, eso quiere decir que la prueba debería fallar porque 
 		//estamos poniendo de resultado esperado 2 cuando no es correcto
 		

@@ -11,7 +11,7 @@ public class MyAssertArrayEqualsTest {
 	@Test
     public void myTestMethod(){
        MyAssertArrayEquals pruebaEquals = new MyAssertArrayEquals();
-        assertArrayEquals(MyAssertArrayEquals.PrimerArray(), MyAssertArrayEquals.SegundoArray());
+       assertArrayEquals(MyAssertArrayEquals.pruebaArray1(), MyAssertArrayEquals.pruebaArray2());
     }
 
 }

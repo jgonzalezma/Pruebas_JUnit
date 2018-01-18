@@ -21,6 +21,6 @@ public class Objetos {
          * conveierte la lista de objetos en un array de objetos
          */
         Object[] testeo = Persona.getEmpList().toArray();
-        assertArrayEquals(personas, testeo);
+        Assert.assertArrayEquals(personas, testeo);
     }
 }

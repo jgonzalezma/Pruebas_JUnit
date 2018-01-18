@@ -1,5 +1,8 @@
 package metodos;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Persona {
 	private String nombre;
 	private String apellido;
@@ -29,4 +32,12 @@ public class Persona {
 		setApellido(apellido);
 		setEdad(edad);
 	}
+	
+	public static List getEmpList(){
+        List<Persona> listaPersonas = new ArrayList<Persona>();
+        listaPersonas.add(new Persona("Robert", "Baluta", 23));
+        listaPersonas.add(new Persona("Mauricio", "Diaz", 23));
+        listaPersonas.add(new Persona("Josu", "Gonzalez", 23));
+        return listaPersonas;
+    }
 }

@@ -3,7 +3,6 @@ package JUnitTests;
 import static org.junit.Assert.*;
 
 import org.junit.Test;
-
 import metodos.MyAssertFalse;
 
 public class MyAssertFalseTest {
@@ -11,6 +10,6 @@ public class MyAssertFalseTest {
     @Test
     public void evenNumberTest(){
         MyAssertFalse asft = new MyAssertFalse();
-        assertFalse(asft.isEvenNumber(7));
+        assertFalse(asft.isEvenNumberF(7));
     }
 }

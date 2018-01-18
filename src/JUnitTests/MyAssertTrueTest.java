@@ -3,21 +3,13 @@ package JUnitTests;
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+import metodos.MyAssertTrue;
 
 public class MyAssertTrueTest {
-	 
-    public boolean isEvenNumber(int number){
-         //Este metodo comprueba si el numero es par, si no lo es saltará un error
-        boolean result = false;
-        if(number%2 == 0){
-            result = true;
-        }
-        return result;
-    }
-     
+    
     @Test
     public void evenNumberTest(){
-        MyAssertTrueTest asft = new MyAssertTrueTest();
-        assertTrue(asft.isEvenNumber(4));
+        MyAssertTrue num = new MyAssertTrue();
+        assertTrue(num.isEvenNumberT(4));
     }
 }
